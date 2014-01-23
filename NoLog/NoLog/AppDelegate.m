@@ -10,8 +10,20 @@
 
 @implementation AppDelegate
 
++ (void)load
+{
+    NSLog(@"- I CAN LOG");
+}
+
++ (void)initialize
+{
+    NSLog(@"- I CAN LOG");
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSLog(@"- I CAN LOG");
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
