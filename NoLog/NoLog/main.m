@@ -10,6 +10,11 @@
 
 #import "AppDelegate.h"
 
+void __attribute__((constructor)) premain()
+{
+    NSLog(@"- I CAN LOG");
+}
+
 int main(int argc, char * argv[])
 {
     NSLog(@"- I CAN LOG");
