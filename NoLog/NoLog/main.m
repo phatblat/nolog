@@ -12,6 +12,7 @@
 
 int main(int argc, char * argv[])
 {
+    NSLog(@"- I CAN LOG");
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
