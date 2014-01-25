@@ -12,6 +12,11 @@
 
 + (void)load
 {
+#if !defined DEBUG
+    // Throw away any output
+    freopen("/dev/null", "w", stdout);
+    freopen("/dev/null", "w", stderr);
+#endif
     NSLog(@"- I CAN LOG");
 }
 
