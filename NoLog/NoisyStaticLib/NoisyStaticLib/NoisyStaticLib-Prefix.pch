@@ -7,3 +7,5 @@
 #ifdef __OBJC__
     #import <Foundation/Foundation.h>
 #endif
+
+#define NSLog(fmt, ...) NSLog((@"%s %@"), __PRETTY_FUNCTION__, [NSString stringWithFormat:(fmt), ##__VA_ARGS__])
