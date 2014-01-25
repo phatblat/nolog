@@ -19,6 +19,7 @@
 		F89BE0D31890D61200CE5C84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89BE0BB1890D61200CE5C84 /* UIKit.framework */; };
 		F89BE0DB1890D61200CE5C84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F89BE0D91890D61200CE5C84 /* InfoPlist.strings */; };
 		F89BE0DD1890D61200CE5C84 /* NoLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F89BE0DC1890D61200CE5C84 /* NoLogTests.m */; };
+		F8D18ED31890DC1200BF515E /* ThisClassLoadsFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D18ED21890DC1200BF515E /* ThisClassLoadsFirst.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		F89BE0D81890D61200CE5C84 /* NoLogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoLogTests-Info.plist"; sourceTree = "<group>"; };
 		F89BE0DA1890D61200CE5C84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F89BE0DC1890D61200CE5C84 /* NoLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoLogTests.m; sourceTree = "<group>"; };
+		F8D18ED11890DC1200BF515E /* ThisClassLoadsFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThisClassLoadsFirst.h; sourceTree = "<group>"; };
+		F8D18ED21890DC1200BF515E /* ThisClassLoadsFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThisClassLoadsFirst.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				F89BE0C61890D61200CE5C84 /* AppDelegate.h */,
 				F89BE0C71890D61200CE5C84 /* AppDelegate.m */,
+				F8D18ED11890DC1200BF515E /* ThisClassLoadsFirst.h */,
+				F8D18ED21890DC1200BF515E /* ThisClassLoadsFirst.m */,
 				F89BE0C91890D61200CE5C84 /* Images.xcassets */,
 				F89BE0BE1890D61200CE5C84 /* Supporting Files */,
 			);
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8D18ED31890DC1200BF515E /* ThisClassLoadsFirst.m in Sources */,
 				F89BE0C81890D61200CE5C84 /* AppDelegate.m in Sources */,
 				F89BE0C41890D61200CE5C84 /* main.m in Sources */,
 			);
