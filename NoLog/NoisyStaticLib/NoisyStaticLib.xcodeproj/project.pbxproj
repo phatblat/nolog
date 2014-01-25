@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8D18EE11890DD0B00BF515E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D18EE01890DD0B00BF515E /* Foundation.framework */; };
+		F8D18EE61890DD0B00BF515E /* NoisyStaticLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8D18EE51890DD0B00BF515E /* NoisyStaticLib.h */; };
+		F8D18EE81890DD0B00BF515E /* NoisyStaticLib.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D18EE71890DD0B00BF515E /* NoisyStaticLib.m */; };
+		F8D18EEF1890DD0B00BF515E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D18EEE1890DD0B00BF515E /* XCTest.framework */; };
+		F8D18EF01890DD0B00BF515E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D18EE01890DD0B00BF515E /* Foundation.framework */; };
+		F8D18EF21890DD0B00BF515E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D18EF11890DD0B00BF515E /* UIKit.framework */; };
+		F8D18EF51890DD0B00BF515E /* libNoisyStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D18EDD1890DD0B00BF515E /* libNoisyStaticLib.a */; };
+		F8D18EFB1890DD0B00BF515E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8D18EF91890DD0B00BF515E /* InfoPlist.strings */; };
+		F8D18EFD1890DD0B00BF515E /* NoisyStaticLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D18EFC1890DD0B00BF515E /* NoisyStaticLibTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8D18EF31890DD0B00BF515E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8D18ED51890DD0B00BF515E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8D18EDC1890DD0B00BF515E;
+			remoteInfo = NoisyStaticLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8D18EDB1890DD0B00BF515E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				F8D18EE61890DD0B00BF515E /* NoisyStaticLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F8D18EDD1890DD0B00BF515E /* libNoisyStaticLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNoisyStaticLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D18EE01890DD0B00BF515E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8D18EE41890DD0B00BF515E /* NoisyStaticLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoisyStaticLib-Prefix.pch"; sourceTree = "<group>"; };
+		F8D18EE51890DD0B00BF515E /* NoisyStaticLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoisyStaticLib.h; sourceTree = "<group>"; };
+		F8D18EE71890DD0B00BF515E /* NoisyStaticLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoisyStaticLib.m; sourceTree = "<group>"; };
+		F8D18EED1890DD0B00BF515E /* NoisyStaticLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoisyStaticLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D18EEE1890DD0B00BF515E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F8D18EF11890DD0B00BF515E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F8D18EF81890DD0B00BF515E /* NoisyStaticLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoisyStaticLibTests-Info.plist"; sourceTree = "<group>"; };
+		F8D18EFA1890DD0B00BF515E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8D18EFC1890DD0B00BF515E /* NoisyStaticLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoisyStaticLibTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8D18EDA1890DD0B00BF515E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D18EE11890DD0B00BF515E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D18EEA1890DD0B00BF515E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D18EEF1890DD0B00BF515E /* XCTest.framework in Frameworks */,
+				F8D18EF21890DD0B00BF515E /* UIKit.framework in Frameworks */,
+				F8D18EF51890DD0B00BF515E /* libNoisyStaticLib.a in Frameworks */,
+				F8D18EF01890DD0B00BF515E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8D18ED41890DD0B00BF515E = {
+			isa = PBXGroup;
+			children = (
+				F8D18EE21890DD0B00BF515E /* NoisyStaticLib */,
+				F8D18EF61890DD0B00BF515E /* NoisyStaticLibTests */,
+				F8D18EDF1890DD0B00BF515E /* Frameworks */,
+				F8D18EDE1890DD0B00BF515E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8D18EDE1890DD0B00BF515E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8D18EDD1890DD0B00BF515E /* libNoisyStaticLib.a */,
+				F8D18EED1890DD0B00BF515E /* NoisyStaticLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D18EDF1890DD0B00BF515E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8D18EE01890DD0B00BF515E /* Foundation.framework */,
+				F8D18EEE1890DD0B00BF515E /* XCTest.framework */,
+				F8D18EF11890DD0B00BF515E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8D18EE21890DD0B00BF515E /* NoisyStaticLib */ = {
+			isa = PBXGroup;
+			children = (
+				F8D18EE51890DD0B00BF515E /* NoisyStaticLib.h */,
+				F8D18EE71890DD0B00BF515E /* NoisyStaticLib.m */,
+				F8D18EE31890DD0B00BF515E /* Supporting Files */,
+			);
+			path = NoisyStaticLib;
+			sourceTree = "<group>";
+		};
+		F8D18EE31890DD0B00BF515E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8D18EE41890DD0B00BF515E /* NoisyStaticLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8D18EF61890DD0B00BF515E /* NoisyStaticLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8D18EFC1890DD0B00BF515E /* NoisyStaticLibTests.m */,
+				F8D18EF71890DD0B00BF515E /* Supporting Files */,
+			);
+			path = NoisyStaticLibTests;
+			sourceTree = "<group>";
+		};
+		F8D18EF71890DD0B00BF515E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8D18EF81890DD0B00BF515E /* NoisyStaticLibTests-Info.plist */,
+				F8D18EF91890DD0B00BF515E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8D18EDC1890DD0B00BF515E /* NoisyStaticLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D18F001890DD0B00BF515E /* Build configuration list for PBXNativeTarget "NoisyStaticLib" */;
+			buildPhases = (
+				F8D18ED91890DD0B00BF515E /* Sources */,
+				F8D18EDA1890DD0B00BF515E /* Frameworks */,
+				F8D18EDB1890DD0B00BF515E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoisyStaticLib;
+			productName = NoisyStaticLib;
+			productReference = F8D18EDD1890DD0B00BF515E /* libNoisyStaticLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F8D18EEC1890DD0B00BF515E /* NoisyStaticLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D18F031890DD0B00BF515E /* Build configuration list for PBXNativeTarget "NoisyStaticLibTests" */;
+			buildPhases = (
+				F8D18EE91890DD0B00BF515E /* Sources */,
+				F8D18EEA1890DD0B00BF515E /* Frameworks */,
+				F8D18EEB1890DD0B00BF515E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D18EF41890DD0B00BF515E /* PBXTargetDependency */,
+			);
+			name = NoisyStaticLibTests;
+			productName = NoisyStaticLibTests;
+			productReference = F8D18EED1890DD0B00BF515E /* NoisyStaticLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8D18ED51890DD0B00BF515E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "@phatblat";
+			};
+			buildConfigurationList = F8D18ED81890DD0B00BF515E /* Build configuration list for PBXProject "NoisyStaticLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8D18ED41890DD0B00BF515E;
+			productRefGroup = F8D18EDE1890DD0B00BF515E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8D18EDC1890DD0B00BF515E /* NoisyStaticLib */,
+				F8D18EEC1890DD0B00BF515E /* NoisyStaticLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8D18EEB1890DD0B00BF515E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D18EFB1890DD0B00BF515E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8D18ED91890DD0B00BF515E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D18EE81890DD0B00BF515E /* NoisyStaticLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D18EE91890DD0B00BF515E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D18EFD1890DD0B00BF515E /* NoisyStaticLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8D18EF41890DD0B00BF515E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8D18EDC1890DD0B00BF515E /* NoisyStaticLib */;
+			targetProxy = F8D18EF31890DD0B00BF515E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8D18EF91890DD0B00BF515E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8D18EFA1890DD0B00BF515E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8D18EFE1890DD0B00BF515E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8D18EFF1890DD0B00BF515E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8D18F011890DD0B00BF515E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NoisyStaticLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoisyStaticLib/NoisyStaticLib-Prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8D18F021890DD0B00BF515E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NoisyStaticLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoisyStaticLib/NoisyStaticLib-Prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F8D18F041890DD0B00BF515E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoisyStaticLib/NoisyStaticLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NoisyStaticLibTests/NoisyStaticLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F8D18F051890DD0B00BF515E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoisyStaticLib/NoisyStaticLib-Prefix.pch";
+				INFOPLIST_FILE = "NoisyStaticLibTests/NoisyStaticLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8D18ED81890DD0B00BF515E /* Build configuration list for PBXProject "NoisyStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D18EFE1890DD0B00BF515E /* Debug */,
+				F8D18EFF1890DD0B00BF515E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D18F001890DD0B00BF515E /* Build configuration list for PBXNativeTarget "NoisyStaticLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D18F011890DD0B00BF515E /* Debug */,
+				F8D18F021890DD0B00BF515E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D18F031890DD0B00BF515E /* Build configuration list for PBXNativeTarget "NoisyStaticLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D18F041890DD0B00BF515E /* Debug */,
+				F8D18F051890DD0B00BF515E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8D18ED51890DD0B00BF515E /* Project object */;
+}

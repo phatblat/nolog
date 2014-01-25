@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <NoisyStaticLib.h>
 
 @implementation AppDelegate
 
@@ -23,6 +24,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     NSLog(@"- I CAN LOG");
+
+    NoisyStaticLib *lib = [[NoisyStaticLib alloc] init];
+    [lib outputSomething];
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.

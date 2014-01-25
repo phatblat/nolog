@@ -4,4 +4,7 @@
    <FileRef
       location = "group:NoLog/NoLog.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:NoLog/NoisyStaticLib/NoisyStaticLib.xcodeproj">
+   </FileRef>
 </Workspace>
